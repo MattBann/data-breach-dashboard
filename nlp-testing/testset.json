@@ -1,0 +1,602 @@
+[
+    {
+        "description": "In December 2011, \"Anonymous\" <a href=\"http://www.troyhunt.com/2011/12/5-website-security-lessons-courtesy-of.html\" target=\"_blank\" rel=\"noopener\">attacked the global intelligence company known as \"Stratfor\"</a> and consequently disclosed a veritable treasure trove of data including hundreds of gigabytes of email and tens of thousands of credit card details which were promptly used by the attackers to make charitable donations (among other uses). The breach also included 860,000 user accounts complete with email address, time zone, some internal system data and MD5 hashed passwords with no salt.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": false
+    },
+    {
+        "description": "In February 2014, <a href=\"http://www.bbc.co.uk/news/technology-26171130\" target=\"_blank\" rel=\"noopener\">over 2,000 Tesco accounts with usernames, passwords and loyalty card balances appeared on Pastebin</a>. Whilst the source of the breach is not clear, many confirmed the credentials were valid for Tesco and indeed <a href=\"http://www.troyhunt.com/2012/07/lessons-in-website-security-anti.html\" target=\"_blank\" rel=\"noopener\"> they have a history of poor online security</a>.",
+        "isHashed": null,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In May 2014, over 25,000 user accounts were breached from the Asian lesbian, gay, bisexual and transgender website known as \"Fridae\". The attack which was <a href=\"https://twitter.com/Survela/status/463327706361659392\" target=\"_blank\" rel=\"noopener\">announced on Twitter</a> appears to have been <a href=\"http://pastebin.com/ipFKjv6z\" target=\"_blank\" rel=\"noopener\">orchestrated by Deletesec</a> who claim that \"Digital weapons shall annihilate all secrecy within governments and corporations\". The exposed data included password stored in plain text. ",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In December 2013, the vBulletin forum for the social engineering site known as \"AstroPID\" was breached and <a href=\"https://www.sinister.ly/Thread-40-Compromised-databases\" target=\"_blank\" rel=\"noopener\">leaked publicly</a>. The site provided tips on fraudulently obtaining goods and services, often by providing a legitimate \"PID\" or Product Information Description. The breach resulted in nearly 6k user accounts and over 220k private messages between forum members being exposed.",
+        "isHashed": null,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In September 2014, <a href=\"http://habrahabr.ru/post/235949/\" target=\"_blank\" rel=\"noopener\">news broke of a massive leak of accounts from Yandex</a>, the Russian search engine giants who also provides email services. The purported million \"breached\" accounts were disclosed at the same time as nearly 5M mail.ru accounts with <a href=\"http://globalvoicesonline.org/2014/09/10/russia-email-yandex-mailru-passwords-hacking/\" target=\"_blank\" rel=\"noopener\">both companies claiming the credentials were acquired via phishing scams</a> rather than being obtained as a result of direct attacks against their services.",
+        "isHashed": null,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In March 2014, the <a href=\"http://www.webopedia.com/TERM/B/booter_services.html\">booter service</a> Quantum Booter (also referred to as Quantum Stresser) suffered a breach which lead to the disclosure of their internal database. The leaked data included private discussions relating to malicious activity Quantum Booter users were performing against online adversaries, including the IP addresses of those using the service to mount DDoS attacks.",
+        "isHashed": null,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In February 2012, the adult website YouPorn <a href=\"http://www.huffingtonpost.com/2012/02/22/youporn-hacked-email-addresses-passwords_n_1294502.html\" target=\"_blank\" rel=\"noopener\">had over 1.3M user accounts exposed in a data breach</a>. The publicly released data included both email addresses and plain text passwords.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In approximately March 2015, the free web hosting provider <a href=\"http://www.troyhunt.com/2015/10/breaches-traders-plain-text-passwords.html\" target=\"_blank\" rel=\"noopener\">000webhost suffered a major data breach</a> that exposed almost 15 million customer records. The data was sold and traded before 000webhost was alerted in October. The breach included names, email addresses and plain text passwords.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In October 2011, the Android Forums website <a href=\"http://www.pcworld.com/article/259201/online_android_forum_hacked_user_data_accessed.html\" target=\"_blank\" rel=\"noopener\">was hacked</a> and 745k user accounts were subsequently leaked publicly. The compromised data included email addresses, user birth dates and passwords stored as a salted MD5 hash.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In approximately February 2015, the Sony Playstation forum known as <a href=\"http://psx-scene.com\" target=\"_blank\" rel=\"noopener\">PSX-Scene</a> was hacked and more than 340k accounts were exposed. The vBulletin forum included IP addresses and passwords stored as salted hashes using a weak implementation enabling many to be rapidly cracked.",
+        "isHashed": true,
+        "algorithm": null,
+        "isSalted": true
+    },
+    {
+        "description": "In February 2016, the website for the Linux distro known as Linux Mint <a href=\"http://thehackernews.com/2016/02/linux-mint-hack.html\" target=\"_blank\" rel=\"noopener\">was hacked and the ISO infected with a backdoor</a>. The site also ran a phpBB forum which was subsequently put up for sale complete with almost 145k email addresses, passwords and other personal subscriber information.",
+        "isHashed": null,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In July 2015, the torrent site Seedpeer was hacked and 282k member records were exposed. The data included usernames, email addresses and passwords stored as weak MD5 hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": null
+    },
+    {
+        "description": "In May 2014, <a href=\"https://www.grahamcluley.com/2014/05/avast-forum-hacked/\" target=\"_blank\" rel=\"noopener\">the Avast anti-virus forum was hacked</a> and 423k member records were exposed. The Simple Machines Based forum included usernames, emails and password hashes.",
+        "isHashed": true,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In July 2015, the Qatar National Bank <a href=\"http://www.theregister.co.uk/2016/04/25/breaking_qatar_bank_hack/\" target=\"_blank\" rel=\"noopener\">suffered a data breach</a> which exposed 15k documents totalling 1.4GB and detailing more than 100k accounts with passwords and PINs. The incident was made public some 9 months later in April 2016 when the documents appeared publicly on a file sharing site. Analysis of the breached data suggests <a href=\"http://blog.trendmicro.co.uk/qatar-bank-breach-lifts-the-veil-on-targeted-attack-strategies/#more-520\" target=\"_blank\" rel=\"noopener\">the attack began by exploiting a SQL injection flaw</a> in the bank's website.",
+        "isHashed": null,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In early 2013, <a href=\"https://staff.tumblr.com/post/144263069415/we-recently-learned-that-a-third-party-had\" target=\"_blank\" rel=\"noopener\">tumblr suffered a data breach</a> which resulted in the exposure of over 65 million accounts. The data was later put up for sale on a dark market website and included email addresses and passwords stored as salted SHA1 hashes.",
+        "isHashed": true,
+        "algorithm": "SHA-1",
+        "isSalted": true
+    },
+    {
+        "description": "In June 2016, <a href=\"http://motherboard.vice.com/read/another-day-another-hack-user-accounts-of-dating-site-badoo\" target=\"_blank\" rel=\"noopener\">a data breach allegedly originating from the social website Badoo was found to be circulating amongst traders</a>. Likely obtained several years earlier, the data contained 112 million unique email addresses with personal data including names, birthdates and passwords stored as MD5 hashes. Whilst there are many indicators suggesting Badoo did indeed suffer a data breach, <a href=\"https://www.troyhunt.com/introducing-unverified-breaches-to-have-i-been-pwned\" target=\"_blank\" rel=\"noopener\">the legitimacy of the data could not be emphatically proven</a> so this breach has been categorised as \"unverified\".",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": null
+    },
+    {
+        "description": "In August 2016, the Grand Theft Auto forum <a href=\"https://motherboard.vice.com/read/grand-theft-auto-fan-site-hacked\" target=\"_blank\" rel=\"noopener\">GTAGaming was hacked and nearly 200k user accounts were leaked</a>. The vBulletin based forum included usernames, email addresses and password hashes.",
+        "isHashed": true,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In September 2015, the Nintendo Wii U forum known as <a href=\"http://www.wiiuiso.com\" target=\"_blank\" rel=\"noopener\">WIIU ISO</a> was hacked and 458k accounts were exposed. Along with email and IP addresses, the vBulletin forum also exposed salted MD5 password hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In approximately January 2016, the UK based Android community known as <a href=\"http://www.modaco.com\" target=\"_blank\" rel=\"noopener\">MoDaCo</a> suffered a data breach which exposed 880k subscriber identities. The data included email and IP addresses, usernames and passwords stored as salted MD5 hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In December 2015, the service for creating and running free Minecraft servers known as <a href=\"https://twitter.com/AternosStatus/status/696121828360716288\" target=\"_blank\" rel=\"noopener\">Aternos suffered a data breach that impacted 1.4 million subscribers</a>. The data included usernames, email and IP addresses and hashed passwords.",
+        "isHashed": true,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In August 2016, <a href=\"http://www.zdnet.com/article/epic-games-unreal-engine-forums-hacked-in-latest-data-breach\" target=\"_blank\" rel=\"noopener\">the Unreal Engine Forum suffered a data breach</a>, allegedly due to a SQL injection vulnerability in vBulletin. The attack resulted in the exposure of 530k accounts including usernames, email addresses and salted MD5 hashes of passwords.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In approximately mid-2015, the forum for <a href=\"https://www.cheapassgamer.com\" target=\"_blank\" rel=\"noopener\">CheapAssGamer.com</a> suffered a data breach. The database from the IP.Board based forum contained 445k accounts including usernames, email and IP addresses and salted MD5 password hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In mid-2015, the forum for the hosting provider known as <a href=\"https://www.ovh.com\" target=\"_blank\" rel=\"noopener\">OVH</a> suffered a data breach. The vBulletin forum contained 453k accounts including usernames, email and IP addresses and passwords stored as salted MD5 hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In approximately October 2016, the Spanish Pok\u00e9mon site <a href=\"http://pokemonnegro.com\" target=\"_blank\" rel=\"noopener\">Pok\u00e9mon Negro</a> suffered a data breach. The attack resulted in the disclosure of 830k accounts including email and IP addresses along with plain text passwords. Pok\u00e9mon Negro did not respond when contacted about the breach.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In approximately September 2015, the PlayStation PSP forum known as <a href=\"http://www.pspiso.com\" target=\"_blank\" rel=\"noopener\">PSP ISO</a> was hacked and almost 1.3 million accounts were exposed. Along with email and IP addresses, the vBulletin forum also exposed salted MD5 password hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In January, the maker of teddy bears that record children's voices and sends them to family and friends via the internet <a href=\"https://www.troyhunt.com/data-from-connected-cloudpets-teddy-bears-leaked-and-ransomed-exposing-kids-voice-messages\" target=\"_blank\" rel=\"noopener\">CloudPets left their database publicly exposed and it was subsequently downloaded by external parties</a> (the data was also subject to 3 different ransom demands). 583k records were provided to HIBP via a data trader and included email addresses and bcrypt hashes, but the full extent of user data exposed by the system was over 821k records and also included children's names and references to portrait photos and voice recordings.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In December 2013, the torrent site <a href=\"https://www.reddit.com/r/trackers/comments/1sqqf7/torrentinvites_hacked/\" target=\"_blank\" rel=\"noopener\">Torrent Invites was hacked</a> and over 352k accounts were exposed. The vBulletin forum contained usernames, email and IP addresses, birth dates and salted MD5 hashes of passwords.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In early 2017, the forum for the gaming website <a href=\"http://www.csoonline.com/article/3192246/security/r2games-compromised-again-over-one-million-accounts-exposed.html\" target=\"_blank\" rel=\"noopener\">R2 Games was hacked</a>. R2 had previously appeared on HIBP in 2015 after a prior incident. This one exposed over 1 million unique user accounts and corresponding MD5 password hashes with no salt.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": false
+    },
+    {
+        "description": "In May 2017, the education platform <a href=\"https://motherboard.vice.com/en_us/article/hacker-steals-millions-of-user-account-details-from-education-platform-edmodo\" target=\"_blank\" rel=\"noopener\">Edmodo was hacked</a> resulting in the exposure of 77 million records comprised of over 43 million unique customer email addresses. The data was consequently published to a popular hacking forum and made freely available. The records in the breach included usernames, email addresses and bcrypt hashes of passwords.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In October 2016, the Minecraft banning service known as <a href=\"https://www.mcbans.com/\" target=\"_blank\" rel=\"noopener\">MCBans</a> suffered a data breach resulting in the exposure of 120k unique user records. The data contained email and IP addresses, usernames and password hashes of unknown format. The site was previously reported as compromised on the <a href=\"https://vigilante.pw/\" target=\"_blank\" rel=\"noopener\">Vigilante.pw</a> breached database directory.",
+        "isHashed": true,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In May 2017, the restaurant guide website <a href=\"https://www.hackread.com/zomato-hacked-17-million-accounts-sold-on-dark-web/\" target=\"_blank\" rel=\"noopener\">Zomato was hacked</a> resulting in the exposure of almost 17 million accounts. The data was consequently redistributed online and contains email addresses, usernames and salted MD5 hashes of passwords (the password hash was not present on all accounts). This data was provided to HIBP by whitehat security researcher and data analyst Adam Davies.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In 2016, the site dedicated to helping people hack email and online gaming accounts known as Abusewith.us suffered multiple data breaches. The site <a href=\"https://krebsonsecurity.com/2017/02/who-ran-leakedsource-com/\" target=\"_blank\" rel=\"noopener\">allegedly had an administrator in common with the nefarious LeakedSource site</a>, both of which have since been shut down. The exposed data included more than 1.3 million unique email addresses, often accompanied by usernames, IP addresses and plain text or hashed passwords retrieved from various sources and intended to be used to compromise the victims' accounts.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In 2014, a file allegedly containing data hacked from <a href=\"https://www.couponmom.com\" target=\"_blank\" rel=\"noopener\">Coupon Mom</a> was created and included 11 million email addresses and plain text passwords. On further investigation, the file was also found to contain data indicating it had been sourced from <a href=\"https://armorgames.com\" target=\"_blank\" rel=\"noopener\">Armor Games</a>. Subsequent verification with HIBP subscribers confirmed the passwords had previously been used and many subscribers had used either Coupon Mom or Armor Games in the past. On disclosure to both organisations, each found that the data did not represent their entire customer base and possibly includes records from other sources with common subscribers. The breach has subsequently been flagged as \"unverified\" as the source cannot be emphatically proven. In July 2020, <a href=\"https://www.troyhunt.com/how-beeradvocate-learned-theyd-been-pwned/\" target=\"_blank\" rel=\"noopener\">the data was also found to contain BeerAdvocate accounts sourced from a previously unknown breach</a>.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In December 2017, the Danish torrent tracker known as <a href=\"https://torrentfreak.com/popular-danish-torrent-tracker-shuts-down-after-hack-180102/\" target=\"_blank\" rel=\"noopener\">HoundDawgs suffered a data breach</a>. More than 55GB of data was dumped publicly and whilst <a href=\"https://www.flashback.org/p62770812\" target=\"_blank\" rel=\"noopener\">there was initially contention as to the severity of the incident</a>, the data did indeed contain more than 45k unique email addresses complete extensive logs of torrenting activity, IP addresses and SHA1 passwords.",
+        "isHashed": true,
+        "algorithm": "SHA-1",
+        "isSalted": null
+    },
+    {
+        "description": "In June 2017, the online playlists service known as <a href=\"https://blog.8tracks.com/2017/06/27/password-security-alert/\" target=\"_blank\" rel=\"noopener\">8Tracks suffered a data breach</a> which impacted 18 million accounts. In their disclosure, 8Tracks advised that \"the vector for the attack was an employee\u2019s GitHub account, which was not secured using two-factor authentication\". Salted SHA-1 password hashes for users who <em>didn't</em> sign up with either Google or Facebook authentication were also included. The data was provided to HIBP by whitehat security researcher and data analyst Adam Davies and contained almost 8 million unique email addresses. The complete set of 18M records was later provided by JimScott.Sec@protonmail.com and updated in HIBP accordingly.",
+        "isHashed": true,
+        "algorithm": "SHA-1",
+        "isSalted": true
+    },
+    {
+        "description": "In March 2018, the animal bestiality website known as <a href=\"https://motherboard.vice.com/en_us/article/evqvpz/bestiality-website-hacked-troy-hunt-have-i-been-pwned\" target=\"_blank\" rel=\"noopener\">Bestialitysextaboo was hacked</a>. A collection of various sites running on the same service were also compromised and details of the hack (including links to the data) were posted on a popular forum. In all, more than 3.2k unique email addresses were included alongside usernames, IP addresses, dates of birth, genders and bcrypt hashes of passwords.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In late 2011, <a href=\"https://news.softpedia.com/news/China-Investigates-Hacking-Operations-That-Exposed-100-Million-Users-244312.shtml\" target=\"_blank\" rel=\"noopener\">a series of data breaches in China affected up to 100 million users</a>, including 7.5 million from the gaming site known as 17173. Whilst there is evidence that the data is legitimate, due to the difficulty of emphatically verifying the Chinese breach it has been flagged as \"unverified\". The data in the breach contains usernames, email addresses and salted MD5 password hashes and was provided with support from <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>. <a href=\"https://www.troyhunt.com/handling-chinese-data-breaches-in-have-i-been-pwned/\" target=\"_blank\" rel=\"noopener\">Read more about Chinese data breaches in Have I Been Pwned.</a>",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In May 2015, the Indian motoring website known as <a href=\"https://www.gaadi.com/\" target=\"_blank\" rel=\"noopener\">Gaadi</a> had 4.3 million records exposed in a data breach. The data contained usernames, email and IP addresses, genders, the city of users as well as passwords stored in both plain text and as MD5 hashes. The site was previously reported as compromised on the <a href=\"https://vigilante.pw/\" target=\"_blank\" rel=\"noopener\">Vigilante.pw</a> breached database directory.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In May 2018, the website for sharing adult-orientated works of fiction known as <a href=\"http://www.adult-fanfiction.org\" target=\"_blank\" rel=\"noopener\">Adult-FanFiction.Org</a> had 186k records exposed in a data breach. The data contained names, email addresses, dates of birth and passwords stored as <em>both</em> MD5 hashes and plain text. AFF did not respond when contacted about the breach and the site was previously reported as compromised on the <a href=\"https://vigilante.pw/\" target=\"_blank\" rel=\"noopener\">Vigilante.pw</a> breached database directory.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In approximately December 2016, the online service for World of Warcraft private servers <a href=\"https://www.warmane.com\" target=\"_blank\" rel=\"noopener\">Warmane</a> suffered a data breach. The incident exposed over 1.1M accounts including usernames, email addresses, dates of birth and salted MD5 password hashes. The data was subsequently extensively circulated online and was later provided to HIBP by whitehat security researcher and data analyst Adam Davies.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In July 2016, the self-proclaimed \"Ultimate Source For Your Mac\" website <a href=\"https://www.mac-forums.com/\" target=\"_blank\" rel=\"noopener\">Mac Forums</a> suffered a data breach. The vBulletin-based system exposed over 326k usernames, email and IP addresses, dates of birth and passwords stored as salted MD5 hashes. The data was later discovered being traded on a popular hacking forum. Mac Forums did not respond when contacted about the incident via their contact us form.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In November 2018, the Minecraft modpack platform known as <a href=\"https://www.technicpack.net/article/forums-database-breach.149\" target=\"_blank\" rel=\"noopener\">Technic suffered a data breach</a>. Technic promptly disclosed the breach and advised that the impacted data included over 265k unique users' email and IP addresses, chat logs, private messages and <a href=\"https://twitter.com/PedroACunha/status/1069740224497020929\" target=\"_blank\" rel=\"noopener\">passwords stored as bcrypt hashes with a work factor of 13</a>. Technic self-submitted the breach to HIBP.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In approximately December 2018, the online ad platform <a href=\"https://bannerbit.com/\" target=\"_blank\" rel=\"noopener\">BannerBit</a> suffered a data breach. Containing 213k unique email addresses and plain text passwords, the data was provided to HIBP by a third party. Multiple attempts were made to contact BannerBit, but no response was received.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In December 2018, the video messaging service <a href=\"https://www.theregister.co.uk/2019/02/11/620_million_hacked_accounts_dark_web/\" target=\"_blank\" rel=\"noopener\">Dubsmash suffered a data breach</a>. The incident exposed 162 million unique email addresses alongside usernames and PBKDF2 password hashes. In 2019, the data appeared listed for sale on a dark web marketplace (along with several other large breaches) and subsequently began circulating more broadly.",
+        "isHashed": true,
+        "algorithm": "PBKDF2",
+        "isSalted": null
+    },
+    {
+        "description": "In mid-2018, the social ebook subscription service <a href=\"https://www.theregister.co.uk/2019/02/11/620_million_hacked_accounts_dark_web/\" target=\"_blank\" rel=\"noopener\">Bookmate was among a raft of sites that were breached and their data then sold in early-2019</a>. The data included almost 4 million unique email addresses alongside names, genders, dates of birth and passwords stored as salted SHA-512 hashes.",
+        "isHashed": true,
+        "algorithm": "SHA-512",
+        "isSalted": true
+    },
+    {
+        "description": "In March 2019, the Indonesian e-commerce website <a href=\"https://www.bukalapak.com/blog/feature-updates/petunjuk-teknis-105502\" target=\"_blank\" rel=\"noopener\">Bukalapak discovered a data breach of the organisation's backups dating back to October 2017</a>. The incident exposed approximately 13 million unique email addresses alongside IP addresses, names and passwords stored as bcrypt and salted SHA-512 hashes.",
+        "isHashed": true,
+        "algorithm": "SHA-512",
+        "isSalted": true
+    },
+    {
+        "description": "In April 2018, the self-proclaimed \"biggest retro gaming website on earth\", Emuparadise, suffered a data breach. The compromised vBulletin forum exposed 1.1 million email addresses, IP address, usernames and passwords stored as salted MD5 hashes. The data was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In June 2018, online fashion retailer <a href=\"https://www.zdnet.com/article/shein-fashion-retailer-announces-breach-affecting-6-42-million-users/\" target=\"_blank\" rel=\"noopener\">SHEIN suffered a data breach</a>. The company discovered the breach 2 months later in August then disclosed the incident another month after that. A total of 39 million unique email addresses were found in the breach alongside MD5 password hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": null
+    },
+    {
+        "description": "In January 2019, the game portal website <a href=\"https://techraptor.net/content/armor-games-data-breach-january-2019\" target=\"_blank\" rel=\"noopener\">Armor Games suffered a data breach</a>. A total of 10.6 million email addresses were impacted by the breach which also exposed usernames, IP addresses, birthdays of administrator accounts and passwords stored as salted SHA-1 hashes.",
+        "isHashed": true,
+        "algorithm": "SHA-1",
+        "isSalted": true
+    },
+    {
+        "description": "In January 2016, the hacked account reseller <a href=\"https://www.epicnpc.com\" target=\"_blank\" rel=\"noopener\">EpicNPC</a> suffered a data breach that impacted 409k subscribers. The impacted data included usernames, IP and email addresses and passwords stored as salted MD5 hashes. The data was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In April 2018, the textbook rental service <a href=\"https://techcrunch.com/2018/09/26/chegg-resets-40-million-user-passwords-after-data-breach/\" target=\"_blank\" rel=\"noopener\">Chegg suffered a data breach</a> that impacted 40 million subscribers. The exposed data included email addresses, usernames, names and passwords stored as unsalted MD5 hashes. A small number of records also contained physical address or phone number.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": false
+    },
+    {
+        "description": "In April 2019, the PDF management service <a href=\"https://www.zdnet.com/article/data-of-24-3-million-lumin-pdf-users-shared-on-hacking-forum/\" target=\"_blank\" rel=\"noopener\">Lumin PDF suffered a data breach</a>. The breach wasn't publicly disclosed until September when 15.5M records of user data appeared for download on a popular hacking forum. The data had been left publicly exposed in a MongoDB instance after which Lumin PDF was allegedly been \"contacted multiple times, but ignored all the queries\". The exposed data included names, email addresses, genders, spoken language and either a bcrypt password hash or Google auth token.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In early 2017, <a href=\"https://www.hackread.com/vbulletin-forums-hacked-accounts-sold-on-dark-web/\" target=\"_blank\" rel=\"noopener\">GPS Underground was amongst a collection of compromised vBulletin websites that were found being sold online</a>. The breach dated back to mid-2016 and included 670k records with usernames, email and IP addresses, dates of birth and salted MD5 password hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In November 2019, <a href=\"https://medium.com/dvuln/why-you-should-choo-choo-choose-to-have-a-vulnerability-disclosure-policy-2m-accounts-exposed-7cd7eaec4da5\" target=\"_blank\" rel=\"noopener\">the website for Indian Rail left more than 2M records exposed on an unprotected Firebase database instance</a>. The exposed data included 583k unique email addresses alongside usernames and passwords stored in plain text.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In February 2020, the gaming website <a href=\"http://animegame.me/\" target=\"_blank\" rel=\"noopener\">AnimeGame</a> suffered a data breach. The incident affected 1.4M subscribers and exposed email addresses, usernames and passwords stored as salted MD5 hashes. The data was subsequently shared on a popular hacking forum and was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In April 2020, the independent Android app store <a href=\"https://blog.aptoide.com/aptoide-credentials-information/\" target=\"_blank\" rel=\"noopener\">Aptoide suffered a data breach</a>. The incident resulted in the exposure of 20M customer records which were subsequently shared online via a popular hacking forum. Impacted data included email and IP addresses, names, IP addresses and passwords stored as SHA-1 hashes without a salt.",
+        "isHashed": true,
+        "algorithm": "SHA-1",
+        "isSalted": false
+    },
+    {
+        "description": "In December 2017, the pet care delivery service <a href=\"https://techcrunch.com/2019/02/14/hacker-strikes-again/\" target=\"_blank\" rel=\"noopener\">PetFlow suffered a data breach which consequently appeared for sale on a dark web marketplace</a>. Almost 1M accounts were impacted and exposed email addresses and passwords stored as unsalted MD5 hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": false
+    },
+    {
+        "description": "In 2019, online marketplace for trading stickers, cards, toys, and other collectibles <a href=\"https://www.zdnet.com/article/account-details-for-4-million-quidd-users-shared-on-hacking-forum/\" target=\"_blank\" rel=\"noopener\">Quidd suffered a data breach</a>. The breach exposed almost 4 million users' email addresses, usernames and passwords stored as bcrypt hashes. The data was subsequently sold then redistributed extensively via hacking forums.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In June 2020, the online fragrance service <a href=\"https://www.bleepingcomputer.com/news/security/hacker-leaks-386-million-user-records-from-18-companies-for-free/\" target=\"_blank\" rel=\"noopener\">Scentbird suffered a data breach</a> that exposed the personal information of over 5.8 million customers. Personal information including names, email addresses, genders, dates of birth, passwords stored as bcrypt hashes and indicators of password strength were all exposed. The data was provided to HIBP by <a href=\"https://breachbase.pw/\" target=\"_blank\" rel=\"noopener\">breachbase.pw</a>.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In December 2019, the booking website <a href=\"https://oag.ca.gov/system/files/Sonicbids%20-%20%20CA.pdf\" target=\"_blank\" rel=\"noopener\">Sonicbids suffered a data breach</a> which they attributed to \"a data privacy event involving our third-party cloud hosting services\". The breach contained 752k user records including names and usernames, email addresses and passwords stored as PBKDF2 hashes. The data was provided to HIBP by <a href=\"https://breachbase.pw/\" target=\"_blank\" rel=\"noopener\">breachbase.pw</a>.",
+        "isHashed": true,
+        "algorithm": "PBKDF2",
+        "isSalted": null
+    },
+    {
+        "description": "In October 2020, the app data company <a href=\"https://reincubate.com/blog/security-incident-oct-2020/\" target=\"_blank\" rel=\"noopener\">Reincubate suffered a data breach</a> which exposed a backup from November 2017 (the newest record in the data appeared several months earlier). The data included over 616k unique email addresses, names and passwords stored as PBKDF2 hashes.",
+        "isHashed": true,
+        "algorithm": "PBKDF2",
+        "isSalted": null
+    },
+    {
+        "description": "In early 2020, the food delivery service <a href=\"https://techcrunch.com/2020/05/20/home-chef-data-breach/\" target=\"_blank\" rel=\"noopener\">Home Chef suffered a data breach</a> which was subsequently sold online. The breach exposed the personal information of almost 9 million customers including names, IP addresses, post codes, the last 4 digits of credit card numbers and passwords stored as bcrypt hashes. The data was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In March 2020, the Irish gym management software company <a href=\"https://www.irishtimes.com/business/technology/irish-start-up-glofox-investigates-possible-data-breach-1.4414837\" target=\"_blank\" rel=\"noopener\">Glofox suffered a data breach which exposed 2.3M membership records</a>. The data included email addresses, names, phone numbers, genders, dates of birth and passwords stored as unsalted MD5 hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": false
+    },
+    {
+        "description": "In August 2015, the storytelling service <a href=\"https://www.zdnet.com/article/hacker-puts-up-for-sale-third-round-of-hacked-databases-on-the-dark-web/\" target=\"_blank\" rel=\"noopener\">StoryBird suffered a data breach</a> exposing 4 million records with 1 million unique email addresses. Impacted data also included names, usernames and passwords stored as PBKDF2 hashes. The data was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+        "isHashed": true,
+        "algorithm": "PBKDF2",
+        "isSalted": null
+    },
+    {
+        "description": "In February 2021, the alt-tech social network service <a href=\"https://www.troyhunt.com/gab-has-been-breached/\" target=\"_blank\" rel=\"noopener\">Gab suffered a data breach</a>. The incident exposed almost 70GB of data including 4M user accounts, a small number of private chat logs and a list of public groups and public posts made to the service. Only a small number of accounts included email addresses and / or passwords stored as bcrypt hashes with a total of 66.5k unique email addresses being exposed across the corpus of data.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In January 2021, <a href=\"https://www.troyhunt.com/data-from-the-emotet-malware-is-now-searchable-in-have-i-been-pwned-courtesy-of-the-fbi-and-nhtcu\" target=\"_blank\" rel=\"noopener\">the FBI in partnership with the Dutch NHTCU, German BKA and other international law enforcement agencies brought down the world's most dangerous malware: Emotet</a>. The agencies obtained data collected by the malware and provided impacted email addresses to HIBP so that impacted individuals and domain owners could assess their exposure. <a href=\"https://www.troyhunt.com/data-from-the-emotet-malware-is-now-searchable-in-have-i-been-pwned-courtesy-of-the-fbi-and-nhtcu\" target=\"_blank\" rel=\"noopener\">Read more about the takedown and recommended actions</a>.",
+        "isHashed": null,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In December 2018, the Indian job portal <a href=\"https://www.hackread.com/indian-job-portal-iimjobs-hacked-database-leaked/\" target=\"_blank\" rel=\"noopener\">IIMJobs suffered a data breach that exposed 4.1 million unique email addresses</a>. The data also included names, phone numbers, geographic locations, dates of birth, job titles, job applications and cover letters plus passwords stored as unsalted MD5 hashes. The data was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": false
+    },
+    {
+        "description": "In June 2020, the Mexican lending platform <a href=\"https://newsbeezer.com/mexicoeng/yotepresto-has-disclosed-the-emails-and-passwords-of-all-1-4-million-customers/\" target=\"_blank\" rel=\"noopener\">yotepresto.com suffered a data breach</a>. Over 1.4 million customers were impacted by the breach which disclosed email and IP addresses, usernames and passwords stored as bcrypt hashes. The data was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In November 2016, the game developer <a href=\"https://www.hackread.com/vbulletin-forums-hacked-accounts-sold-on-dark-web/\" target=\"_blank\" rel=\"noopener\">Suba Games suffered a data breach</a> which led to the exposure of 6.1M unique email addresses. Impacted data also included usernames and passwords, most of which appeared circulating in the breached file in plain text after being cracked from salted MD5 hashes. The data was provided to HIBP by <a href=\"https://dehashed.com/\" target=\"_blank\" rel=\"noopener\">dehashed.com</a>.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In October 2021, the Israeli hosting provider <a href=\"https://www.timesofisrael.com/black-shadow-hackers-leak-medical-records-of-290000-israeli-patients/\" target=\"_blank\" rel=\"noopener\">CyberServe was breached and ransomed before having a substantial amount of their customer data leaked publicly by a group known as \"Black Shadow\"</a>. Amongst the data was the LGBTQ dating site Atraf and the Machon Mor medical institute. Due to multiple different sites being compromised, the impacted data is broad and ranges from relationship information to medical data to email addresses and passwords stored in plain text. The data was made available to HIBP with support from May Brooks-Kempler, founder of <a href=\"https://www.facebook.com/groups/Think.Safe.Cyber/\" target=\"_blank\" rel=\"noopener\">the Think Safe Cyber community in Israel</a>.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In January 2022, the \"doxing\" website designed to disclose the personal information of targeted individuals (\"doxes\") <a href=\"https://www.flashpoint-intel.com/blog/doxbin-leak/\" target=\"_blank\" rel=\"noopener\">Doxbin suffered a data breach</a>. The breach was subsequently leaked online and included over 370k unique email addresses across user accounts and doxes. User accounts also included usernames, password hashes and browser user agents. The personal information disclosed in the doxes was often extensive including names, physical addresses, phone numbers and more.",
+        "isHashed": true,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In August 2020, the website for sharing graphic videos and images of gore and animal cruelty suffered a data breach. The breach exposed 74k unique email addresses alongside usernames, IP addresses, genders and unsalted SHA-1 password hashes. Private messages were also exposed, many containing requests for material of a depraved nature.",
+        "isHashed": true,
+        "algorithm": "SHA-1",
+        "isSalted": false
+    },
+    {
+        "description": "In approximately December 2019, an alleged data breach of the lawyer directory service Avvo was published to an online hacking forum and used in an extortion scam (it's possible the exposure dates back earlier than that). The data contained 4.1M unique email addresses alongside SHA-1 hashes, most likely representing user passwords. <a href=\"https://troyhunt.com/breach-disclosure-blow-by-blow-heres-why-its-so-hard\" target=\"_blank\" rel=\"noopener\">Multiple attempts at contacting Avvo over the course of a week were unsuccessful and the authenticity of the data was eventually verified with common Avvo and HIBP subscribers.</a>",
+        "isHashed": true,
+        "algorithm": "SHA-1",
+        "isSalted": null
+    },
+    {
+        "description": "In April 2022, the UK based website for buying and selling soccer tickets <a href=\"https://milled.com/fanpass/fanpass-incident-notification-V6odeYPOxOTPZFq-\" target=\"_blank\" rel=\"noopener\">Fanpass suffered a data breach</a> which exposed 112k customer records. Impacted data includes names, phone numbers, physical addresses, purchase histories and salted password hashes.",
+        "isHashed": true,
+        "algorithm": null,
+        "isSalted": true
+    },
+    {
+        "description": "In January 2021, the Indian book trading website <a href=\"https://www.opindia.com/2021/04/bookchor-data-breach-information-of-over-5-lakh-users-leaked-what-we-know-so-far/\" target=\"_blank\" rel=\"noopener\">Bookchor suffered a data breach that exposed half a million customer records</a>. The exposed data included email and IP addresses, names, genders, dates of birth, phone numbers and passwords stored as unsalted MD5 hashes. The data was subsequently traded on a popular hacking forum.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": false
+    },
+    {
+        "description": "In July 2016, the Muslim dating site <a href=\"https://news.softpedia.com/news/data-from-two-muslim-dating-sites-two-others-dumped-online-506356.shtml\" target=\"_blank\" rel=\"noopener\">Shadi.com suffered a data breach that exposed over 2M members' email addresses</a>. The breach also exposed passwords stored as MD5 hashes alongside their plain text equivalents.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In early 2020, the Indonesian consumer electronics website <a href=\"https://www.thejakartapost.com/news/2020/05/13/e-commerce-platform-bhinneka-com-reported-to-be-latest-target-of-data-theft.html\" target=\"_blank\" rel=\"noopener\">Bhinneka suffered a data breach that exposed almost 1.3M customer records</a>. The data included email and physical addresses, names, genders, dates of birth, phone numbers and salted password hashes.",
+        "isHashed": true,
+        "algorithm": null,
+        "isSalted": true
+    },
+    {
+        "description": "In January 2023, <a href=\"https://www.digi.no/artikler/selger-datalekkasje-med-140-000-berorte-kunder-fra-lars-monsens-nettbutikk/525070\" target=\"_blank\" rel=\"noopener\">the online Norwegian store KomplettFritid was reported as having had a data breach dating back to February 2021</a>. The incident exposed 140k customer records including physical, email and IP addresses, names, phone numbers and passwords. Most passwords were stored as bcrypt hashes with a small number appearing in plain text.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In December 2022, the online firearms auction website <a href=\"https://techcrunch.com/2023/03/02/hackers-steal-gun-owners-data-from-firearm-auction-website/\" target=\"_blank\" rel=\"noopener\">GunAuction.com suffered a data breach which was later discovered left unprotected on the hacker's server</a>. The data included over 565k user records with extensive personal data including email, IP and physical addresses, names, phone numbers, genders, years of birth, credit card type and passwords stored in plain text. The leaked identities could subsequently be matched to firearms listed for sale on the website.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In February 2023, <a href=\"https://www.bleepingcomputer.com/news/security/kodi-discloses-data-breach-after-forum-database-for-sale-online/\" target=\"_blank\" rel=\"noopener\">The Kodi Foundation suffered a data breach that exposed more than 400k user records</a>. Attributed to an account belonging to \"a trusted but currently inactive member of the forum admin team\", the breach involved the administrator account creating a database backup that was subsequently downloaded before being sold on a hacking forum. The breach exposed email and IP addresses, usernames, genders and passwords stored as MyBB salted hashes. The Kodi Foundation elected to self-submit impacted email addresses to HIBP.",
+        "isHashed": true,
+        "algorithm": "MyBB",
+        "isSalted": true
+    },
+    {
+        "description": "In May 2023, <a href=\"https://zaufanatrzeciastrona.pl/post/kilka-milionow-loginow-i-hasel-z-polski-wycieklo-do-sieci/\" target=\"_blank\" rel=\"noopener\">a credential stuffing list of 6.3M Polish email address and password pairs appeared on a local forum</a>. Likely obtained by malware running on victims' machines, each record included an email address and plain text password alongside the website the credentials were used on. The data included 1.2M unique email addresses.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In November 2022, the well-known hacking forum \"BreachForums\" was itself, breached. Later the following year, <a href=\"https://www.bleepingcomputer.com/news/security/fbi-seizes-breachforums-after-arresting-its-owner-pompompurin-in-march/\" target=\"_blank\" rel=\"noopener\">the operator of the website was arrested and the site seized by law enforcement agencies</a>. The breach exposed 212k records including usernames, IP and email addresses, private messages between site members and passwords stored as argon2 hashes./a>.",
+        "isHashed": true,
+        "algorithm": "argon2",
+        "isSalted": null
+    },
+    {
+        "description": "In August 2023, PlayCyberGames which \"allows users to play any games with LAN function or games using IP address\" suffered a data breach which exposed 3.7M customer records. The data included email addresses, usernames and MD5 password hashes with a constant value in the \"salt\" field. PlayCyberGames did not respond to multiple attempts to disclose the breach.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In July 2021, the Android applications and games review site <a href=\"https://www.androidlista.com/\" target=\"_blank\" rel=\"noopener\">AndroidLista</a> suffered a data breach. The incident exposed 6.6M user records containing email addresses, names, usernames and passwords stored as salted SHA-1 hashes, all of which were subsequently posted to a popular hacking forum. AndroidLista did not respond when contacted about the breach.",
+        "isHashed": true,
+        "algorithm": "SHA-1",
+        "isSalted": true
+    },
+    {
+        "description": "In July 2021, the online Indonesian watch store, Jam Tangan (AKA Machtwatch), suffered a data breach that exposed over 400k customer records which were subsequently posted to a popular hacking forum. The data included email and IP addresses, names, phone numbers, physical addresses and passwords stored as either unsalted MD5 or bcrypt hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": false
+    },
+    {
+        "description": "In December 2022, <a href=\"https://www.movieforums.com/community/showthread.php?t=67897\" target=\"_blank\" rel=\"noopener\">the Movie Forums website suffered a data breach</a> that affected 40k users. The breach exposed email and IP addresses, usernames, dates of birth and passwords stored as easily crackable salted MD5 hashes. The data was subsequently posted a popular clear web hacking forum.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "In January 2024, <a href=\"https://www.troyhunt.com/how-spoutibles-leaky-api-spurted-out-a-deluge-of-personal-data/\" target=\"_blank\" rel=\"noopener\">Spoutible had 207k records scraped from a misconfigured API that inadvertently returned excessive personal information</a>. The data included names, usernames, email and IP addresses, phone numbers (where provided to the platform), genders and bcrypt password hashes. The incident also exposed 2FA secrets and backup codes along with password reset tokens.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In September 2022, the online photo sharing platform <a href=\"https://blog.clickasnap.com/2022/10/14/clickasnap-website-breach-24-09-22/\" target=\"_blank\" rel=\"noopener\">ClickASnap suffered a data breach</a>. The incident exposed almost 3.3M personal records including email addresses, usernames and passwords stored as SHA-512 hashes. Further, a collection of paid subscriptions were also included and contained names, physical addresses and amounts paid.",
+        "isHashed": true,
+        "algorithm": "SHA-512",
+        "isSalted": null
+    },
+    {
+        "description": "In April 2024, <a href=\"https://www.cyberdaily.au/security/10446-t2-scalded-by-alleged-data-breach-affecting-more-than-80-000-customers\" target=\"_blank\" rel=\"noopener\">95k records from the T2 tea store were posted to a popular hacking forum</a>. Data included email and physical addresses, names, phone numbers, dates of birth, purchases and passwords stored as scrypt hashes.",
+        "isHashed": true,
+        "algorithm": "scrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In May 2024, <a href=\"https://www.abc.net.au/news/2024-05-31/ticketek-australia-cyber-security-data-breach-names-emails-leak/103921986\" target=\"_blank\" rel=\"noopener\">the Australian event ticketing company Ticketek reported a data breach linked to a third party cloud-based platform</a>. The following month, <a href=\"https://techcrunch.com/2024/06/21/hacker-claims-to-have-30-million-customer-records-from-australian-ticket-seller-giant-teg/\" target=\"_blank\" rel=\"noopener\">the data appeared for sale on a popular hacking forum</a> and was later linked to a series of breaches of the Snowflake cloud storage service. The data contained almost 30M rows with 17.6M unique email addresses alongside names, genders, dates of birth and hashed passwords.",
+        "isHashed": true,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In July 2024, <a href=\"https://www.csoonline.com/article/2516119/hackers-steal-data-of-200k-lulu-customers-in-an-alleged-breach.html\" target=\"_blank\" rel=\"noopener\">the Emirati-based LuLu retail store suffered a data breach</a>. The impacted data included 190k email addresses and associated phone numbers which were subsequently shared on a popular hacking forum. The following month, the threat of leaking the full database was carried out and a backup from October 2022 with a further 2.6M unique email addresses appeared. This data also included names, physical addresses, orders and PBKDF2 password hashes.",
+        "isHashed": true,
+        "algorithm": "PBKDF2",
+        "isSalted": null
+    },
+    {
+        "description": "In September 2024, the digital library of internet sites <a href=\"https://www.bleepingcomputer.com/news/security/internet-archive-hacked-data-breach-impacts-31-million-users/\" target=\"_blank\" rel=\"noopener\">Internet Archive suffered a data breach that exposed 31M records</a>. The breach exposed user records including email addresses, screen names and bcrypt password hashes.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In June 2024, <a href=\"https://cybernews.com/security/zlibrary-copycat-exposes-millions-digital-pirates/\" target=\"_blank\" rel=\"noopener\">almost 10M user records from Z-lib were discovered exposed online</a>. Now defunct, Z-lib was a malicious clone of Z-Library, a well-known shadow online platform for pirating books and academic papers. The exposed data included usernames, email addresses, countries of residence, Bitcoin and Monero cryptocurrency wallet addresses, purchases and bcrypt password hashes.",
+        "isHashed": true,
+        "algorithm": "bcrypt",
+        "isSalted": null
+    },
+    {
+        "description": "In January 2025, <a href=\"https://troyhunt.com/experimenting-with-stealer-logs-in-have-i-been-pwned/\" target=\"_blank\" rel=\"noopener\">stealer logs with 71M email addresses were added to HIBP</a>. Consisting of email address, password and the website the credentials were entered against, this breach marks the launch of a new HIBP feature enabling the retrieval of the specific websites the logs were collected against. The incident also resulted in 106M more passwords being added to the <a href=\"https://haveibeenpwned.com/Passwords\" rel=\"noopener\">Pwned Passwords service</a>.",
+        "isHashed": null,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In March 2019, <a href=\"https://upfsecurity.co.jp/pmark/8395/\" target=\"_blank\" rel=\"noopener\">the Japanese solder-related business Hakko Corporation suffered a data breach</a>. The incident exposed almost 10k customer records including email and physical addresses, phone numbers, names, usernames, genders, dates of birth and plain text passwords.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In October 2024, <a href=\"https://www.youtube.com/watch?v=71FRE9cZczw\" target=\"_blank\" rel=\"noopener\">the flat earth sun, moon and zodiac app created by Flat Earth Dave was found to be leaking extensive personal information of its users</a>. The data included 33k unique email addresses along with usernames, latitudes and longitudes (their position on the globe) and passwords stored in plain text. A small number of profiles also contained names, dates of birth and genders.",
+        "isHashed": false,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In May 2025, <a href=\"https://www.europol.europa.eu/media-press/newsroom/news/operation-endgame-strikes-again-ransomware-kill-chain-broken-its-source\" target=\"_blank\" rel=\"noopener\">a coalition of law enforcement agencies took down the criminal infrastructure behind the malware used to launch ransomware attacks</a> in a new phase of \"Operation Endgame\". This followed <a href=\"https://www.troyhunt.com/operation-endgame/\" target=\"_blank\" rel=\"noopener\">the first Operation Endgame exercise a year earlier</a>, with the latest action resulting in 15.3M victim email addresses being provided to HIBP by law enforcement. A further 43.8M victim passwords were also provided for <a href=\"https://haveibeenpwned.com/Passwords\">HIBP's Pwned Passwords service</a>.",
+        "isHashed": null,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In February 2017, the forum for the adult website FreeOnes suffered a data breach <a href=\"https://cybernews.com/security/billions-passwords-credentials-leaked-mother-of-all-breaches/\" target=\"_blank\" rel=\"noopener\">that was later redistributed as part of a larger corpus of data</a>. The data included 960k unique email addresses alongside usernames, IP addresses and salted MD5 password hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    },
+    {
+        "description": "During 2025, <a href=\"https://www.troyhunt.com/2-billion-email-addresses-were-exposed-and-we-indexed-them-all-in-have-i-been-pwned\" target=\"_blank\" rel=\"noopener\">the threat-intelligence firm Synthient aggregated 2 billion unique email addresses disclosed in credential-stuffing lists found across multiple malicious internet sources</a>. Comprised of email addresses and passwords from previous data breaches, these lists are used by attackers to compromise other, unrelated accounts of victims who have reused their passwords. The data also included 1.3 billion unique passwords, which are now searchable in Pwned Passwords. Working to turn breached data into awareness, Synthient partnered with HIBP to help victims of cybercrime understand their exposure.",
+        "isHashed": null,
+        "algorithm": null,
+        "isSalted": null
+    },
+    {
+        "description": "In August 2012, the forum for making money with botting \"The Botting Network\" <a href=\"https://x.com/r00tbeer_/status/237213939803504641\" target=\"_blank\" rel=\"noopener\">suffered a data breach that exposed 96k user records</a>. The now defunct vBulletin forum leaked 96k email addresses, usernames, dates of birth and salted MD5 password hashes.",
+        "isHashed": true,
+        "algorithm": "MD5",
+        "isSalted": true
+    }
+]
