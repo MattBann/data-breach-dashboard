@@ -2,6 +2,8 @@
 
 An application for tracking the history of data breaches, using the Have I Been Pwned dataset.
 
+This project was developed as part of a University dissertation.
+
 This repository contains 4 distinct folders:
 
 - [backend](#backend)
